@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030CF9112AF288D000992673 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 030CF9102AF288D000992673 /* main.cpp */; };
+		03A0D0442AF62EA900561DFE /* WeightedMovingAverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A0D0422AF62EA900561DFE /* WeightedMovingAverage.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		030CF90D2AF288D000992673 /* weightedMovingAverage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weightedMovingAverage; sourceTree = BUILT_PRODUCTS_DIR; };
-		030CF9102AF288D000992673 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		03A0D0422AF62EA900561DFE /* WeightedMovingAverage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeightedMovingAverage.cpp; sourceTree = "<group>"; };
+		03A0D0432AF62EA900561DFE /* WeightedMovingAverage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeightedMovingAverage.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		030CF90F2AF288D000992673 /* weightedMovingAverage */ = {
 			isa = PBXGroup;
 			children = (
-				030CF9102AF288D000992673 /* main.cpp */,
+				03A0D0422AF62EA900561DFE /* WeightedMovingAverage.cpp */,
+				03A0D0432AF62EA900561DFE /* WeightedMovingAverage.hpp */,
 			);
 			path = weightedMovingAverage;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030CF9112AF288D000992673 /* main.cpp in Sources */,
+				03A0D0442AF62EA900561DFE /* WeightedMovingAverage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

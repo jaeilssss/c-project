@@ -9,6 +9,9 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    double weights[] = {0.5, 0.3, 0.15, 0.05};
+    double values[] = {10,5,8,12,101,14};
+
     return 0;
 }

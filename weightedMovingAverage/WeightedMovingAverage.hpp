@@ -9,5 +9,5 @@
 #define WeightedMovingAverage_hpp
 
 #include <stdio.h>
-
+#include <iostream>
 #endif /* WeightedMovingAverage_hpp */
