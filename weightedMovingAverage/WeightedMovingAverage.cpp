@@ -46,7 +46,7 @@ public :
             weightSum += weights[i];
         }
         
-        std::cout << (sum / weightSum);
+        std::cout << (sum / weightSum) << endl;
     
                 
     }

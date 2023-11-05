@@ -10,4 +10,5 @@
 
 #include <stdio.h>
 #include <iostream>
+using namespace std;
 #endif /* WeightedMovingAverage_hpp */
